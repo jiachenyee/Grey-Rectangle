@@ -292,7 +292,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         faceRectangleShapeLayer.bounds = captureDeviceBounds
         faceRectangleShapeLayer.anchorPoint = normalizedCenterPoint
         faceRectangleShapeLayer.position = captureDeviceBoundsCenterPoint
-        faceRectangleShapeLayer.fillColor = .init(gray: 0.5, alpha: 1)
+        faceRectangleShapeLayer.fillColor = .init(gray: 36/255, alpha: 1)
         
         let faceLandmarksShapeLayer = CAShapeLayer()
         faceLandmarksShapeLayer.name = "FaceLandmarksLayer"
